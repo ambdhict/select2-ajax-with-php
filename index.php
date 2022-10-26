@@ -12,7 +12,7 @@
     $('#selectdropdown').select2({
     placeholder: 'Select2 Populate',
     ajax: {
-        url: 'yoururl.php',
+        url: 'populate.php',
         dataType: 'json',
         delay: 250,
         data: function (data) {
