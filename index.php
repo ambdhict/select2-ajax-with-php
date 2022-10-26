@@ -17,7 +17,7 @@
         delay: 250,
         data: function (data) {
             return {
-                searchCourse: data.term // search term
+                term: data.term // search term
             };
         },
         processResults: function (response) {
